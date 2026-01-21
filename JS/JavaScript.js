@@ -34,7 +34,7 @@ function sizeImgDiv() {
 
     for (i = 0; i < images.length; i++) {
         var img = document.createElement("img");
-        img.src = 'images/' + images[i] + '.jpg'
+        img.src = 'Images/' + images[i] + '.jpg'
         img.style.width = '100%';
         img.style.height = 'auto'
 
@@ -83,7 +83,7 @@ prev.addEventListener("click", function() {
         newImgNum = --curImgNum
     };
 
-    document.getElementById("acjIMG").src = "images/acj/acj" + newImgNum + ".jpg";
+    document.getElementById("acjIMG").src = "Images/acj/acj" + newImgNum + ".jpg";
 });
 
 next.addEventListener("click", function () {
@@ -96,6 +96,7 @@ next.addEventListener("click", function () {
         newImgNum = ++curImgNum
     };
 
-    document.getElementById("acjIMG").src = "images/acj/acj" + newImgNum + ".jpg";
+    document.getElementById("acjIMG").src = "Images/acj/acj" + newImgNum + ".jpg";
 });
+
 

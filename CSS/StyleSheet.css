@@ -1,0 +1,384 @@
+﻿body {
+    margin: 0;
+}
+
+header {
+    background-color: #002366;
+    width: 100%;
+    border-bottom: 2px solid red;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.topBanner {
+    padding: 10px;
+    display: inline-block;
+    width: 100%;
+    max-width: 1300px;
+    text-align: center;
+}
+
+.logo {
+    vertical-align: middle;
+}
+
+.logoText {
+    color: white;
+    font-variant: small-caps;
+    font-family: 'Cinzel', serif;
+    font-size: 30px;
+    vertical-align: middle;
+}
+
+.contact {
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+    font-family: Helvetica,Arial,sans-serif;
+}
+
+.submit {
+    background-color: #2196f3;
+    width: 100%;
+    border-radius: 3px;
+    border: none;
+    color: white;
+    height: 40px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.cinput {
+    width: 100%;
+    border-radius: 3px;
+    margin-bottom: 17px;
+    height: 40px;
+    font-size: 20px;
+    background-color: #f9f9f9;
+    border: solid #d4d6d5 1px;
+    font: normal 16px/1 Helvetica,Arial,sans-serif;        
+}
+
+.ctextarea {
+    width: 100%;
+    min-height: 100px;
+    border-radius: 3px;
+    margin-bottom: 17px; 
+    font-size: 20px;
+    background-color: #f9f9f9;
+    font: normal 16px/1 Helvetica,Arial,sans-serif;         
+}
+
+label {
+    display: block;
+}
+
+h2 {
+ font-family: 'Krona One', sans-serif;
+ font-weight: normal;
+ text-align: center;
+ font-size: 30px;
+}
+
+footer {
+    background-color: #f1f1f1;
+    width: 100%;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.footcont {
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+}
+
+.f1 {
+    width: 100%;
+    font-family: Verdana, Geneva, sans-serif;
+    text-align: center;
+}
+
+address {
+    font-style: normal;
+    font-size: 14px;
+}
+
+.mainLogo {
+    background-image: url('../Images/logo.png');
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: auto;
+    width: 88px;
+    height: 75px;
+    vertical-align: middle;
+}
+
+.instructors {
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;     
+}
+
+.instructor {
+    display: inline-block;
+    max-width: 210px;
+    width: 100%;
+    margin: 0 15px;
+    height: 475px;
+    vertical-align: top;
+}
+
+.instructor ul li {
+    margin-bottom: 5px;
+    font-family: Verdana, Geneva, sans-serif; 
+}
+
+.instructor ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 12px;      
+}
+
+.InName {
+    font-family: 'Krona One', sans-serif;
+    color: #ed3237;
+}
+
+.mAwords {
+    text-align: center;
+    width: 100%;
+    max-width: 300px;
+    font-family: 'Krona One', sans-serif;
+    display: inline-block;
+}
+
+.mAwords span {
+    color: gray;
+    display: inline-block; 
+    padding-bottom: 2px;
+}
+
+.map {
+    display: inline-block;
+    width: 100%;
+    max-width: 700px;
+    -webkit-filter: grayscale(80%);
+}
+
+.midCatch {
+    background-color: #2196f3;
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+.dayBlock {
+    display: inline-block;
+    width: 24%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: Verdana, Geneva, sans-serif;
+    vertical-align: top;
+}
+
+.hr50 {
+    width: 70%;
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.details {
+    color: gray;
+}
+
+.day {
+    color: #a03636;
+}
+
+.modQuote {
+    font-family: 'Oswald', sans-serif;
+    color: #515151;
+    text-align: center;
+}
+
+.catchPara {
+    font-family: 'Lato', sans-serif;
+    width: 80%;
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    line-height: 150%;
+    font-size: 18px;
+}
+
+#cycler img {
+    position: absolute;
+}
+
+.active {
+    z-index: 3;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("../images/beltsL.jpg");
+
+    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.chMarks {
+    text-align: center;
+}
+
+.chMark {
+    width: 250px;
+    text-align: center;
+    display: inline-block;
+}
+
+.checkMark {
+    color: #415ef4;
+    font-size: 40px;
+    margin-bottom: 0;
+}
+
+.chDescription {
+    font-family: 'Lato', sans-serif;
+    color: gray;
+}
+
+.chHeading {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.aboutACJ {
+    width: 80%;
+    max-width: 500px;
+    font-family: 'Lato', sans-serif;
+    color: gray;
+    line-height: 150%;
+    display: inline-block;
+}
+
+.acjIMGs {
+    display: inline-block;
+    width: 80%;
+    max-width: 500px;
+    text-align: center;
+    vertical-align: top;
+}
+
+.acjBTN {
+    background-color: gray;
+    padding: 4px;
+    border-radius: 20%;
+    color: white;
+    margin: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: 'Lato', sans-serif;
+}
+
+@media only screen and (max-width : 1120px) {
+
+    .topBanner {
+        width: 100%;    
+    }
+
+    .dayBlock {
+        display: block;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .mAwords {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    .map {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    .aboutACJ {
+        margin: 0 auto;
+        display:block;
+    }
+
+    .acjIMGs {
+        margin: 0 auto;
+        display: block;
+    }
+
+}
+
+@media only screen and (max-width : 415px) {
+    .mainLogo {
+        background-image: url(../Images/logo50.png);
+        display: inline-block;
+        background-repeat: no-repeat;
+        background-size: auto;
+        width: 59px;
+        height: 50px;
+    }
+
+    .topBanner {
+        padding: 0;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        text-align: left;
+    }
+
+    .logoText {
+        font-size: 18px;
+    }
+
+    .f1 {
+        display: block;
+        width: 100%;
+    }
+
+     .f2 {
+        display: block;
+        width: 100%;
+        margin: 10px 0;
+    }
+
+      .f3 {
+        display: block;
+        width: 100%;
+    }
+
+    .instructor {
+        height: auto;
+        margin-bottom: 30px;
+    }
+
+}
+
